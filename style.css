@@ -23,3 +23,12 @@ button{
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  footer {
+    text-align: center;
+    background-color: rgb(252, 218, 30);
+    color: rgb(1, 1, 71);
+    position:absolute;
+    bottom:0;
+    width:100%;
+  }
