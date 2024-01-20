@@ -88,3 +88,31 @@ button{
   .answer {
     margin-left: 10px;
   }
+
+  .casestudies{
+    color: rgb(1, 1, 71);
+    font-family:Calibri;
+    font-size:15pt;
+    font-weight: bold;
+}
+
+.descdiv{
+    font-size:15pt;
+    font-weight: normal;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    max-width: auto;
+    margin: 20px auto;
+}
+
+.image {
+    /* max-width: auto; */
+    height: 150px;
+    margin-right: 20px; 
+}
+
+.description {
+    flex-grow: 1;
+    text-align:justify;
+}
