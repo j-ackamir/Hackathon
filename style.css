@@ -19,7 +19,13 @@ button{
     display: block;
     color: rgb(1, 1, 71);
     font-family: Calibri;
+    font-weight:bolder;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
+
+a img{
+    max-width: 10%;
+    position: left;
+}
