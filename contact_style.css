@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+}
+
+pe {
+    margin: 8px 0;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+    }
+}
