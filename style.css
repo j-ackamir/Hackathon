@@ -99,9 +99,3 @@ button{
     flex-grow: 1;
     text-align:justify;
 }
-
-.imagerev {
-    /* max-width: 100%; */
-    height:auto;
-    margin-left:20px
-} 
