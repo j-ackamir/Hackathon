@@ -71,3 +71,20 @@ button{
     height: 80% 
   }
 
+  .container {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 40%;
+    margin-bottom: 30px;
+    margin-left: 5%;
+  }
+  .container img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+  .answer {
+    margin-left: 10px;
+  }
