@@ -28,7 +28,7 @@ button{
     text-align: center;
     background-color: rgb(252, 218, 30);
     color: rgb(1, 1, 71);
-    position:fixed;
+    position:absolute;
     bottom:0;
     left:0;
     width:100%;
