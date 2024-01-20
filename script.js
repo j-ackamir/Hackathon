@@ -7,3 +7,4 @@ function showAnswer(element) {
         answer.style.display = 'none';
     }
 }
+
