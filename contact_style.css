@@ -41,6 +41,11 @@ pe {
     height: auto;
 }
 
+.hover-container img {
+    width: 300px; 
+    height: auto; 
+}
+
 .info-content {
     display: none;
     position: absolute;
