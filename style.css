@@ -91,14 +91,13 @@ button{
     font-size: 50px;
     font-weight: bolder;
   }
-  .basic {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
+ 
+  .inflation {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+    
+    
   }
-
   .container {
     display: flex;
     align-items: center;
@@ -132,6 +131,8 @@ button{
     align-items: center;
     max-width: auto;
     margin: 20px auto;
+    border-radius: 25px;
+    background: #f3f3d6;
 }
 
 .image {
@@ -172,3 +173,4 @@ button{
     border-radius: 100%;
     cursor:move;
   }
+
