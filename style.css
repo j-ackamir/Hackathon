@@ -91,13 +91,7 @@ button{
     font-size: 50px;
     font-weight: bolder;
   }
-  .basic {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
-  }
+ 
   .inflation {
     font-family: "Times New Roman", Times, serif;
     font-weight: 200;
