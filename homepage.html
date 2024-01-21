@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+
     <title>Sun Life</title>
 
 </head>
@@ -15,72 +16,80 @@
             <a href="homepage.html">
                 <img src="https://www.sunlife.ca/content/dam/sunlife/folder1/Sun_Life_weblogo_127x31.svg" />
             </a>
- </div>
-        <ul>
-            <li> <a href="mortgage.html"> Education </a> </li>
-            <li> <a href="casestudies.html"> Case Studies </a> </li>
-            <li> <a href="FAQ.html"> FAQs </a> </li>
-            <li> <a href="contactus.html"> Contact Us </a> </li>
-        </ul>
         </div>
+        <ul>
+          <li> <a class='active' href="."> Home Page </a> </li>
+          <li> <a href=""> Education </a> </li>
+          <li> <a href="casestudies.html"> Case Studies </a> </li>
+          <li> <a href="FAQ.html"> FAQs </a> </li>
+          <li> <a href="mortgage.html"> Payments</a> </li>
+          <li> <a href=""> Contact Us </a> </li>
+      </ul>
+      </div>
 </nav>
 
 <body>
-    <div style="float: left; width: 50%;">
-    <div class="slideshow-container">
+    <div class="page-container">
+      <div class="content-wrap">
+         <div style="float: left; width: 50%;">
+             <div class="slideshow-container">
 
-        <div class="mySlides fade">
-          <img src="slideshow_1.jpg" style="width:100%">
-        </div>
+                  <div class="mySlides fade">
+                    <img src="slideshow_1.jpg" style="width:100%">
+                  </div>
         
-        <div class="mySlides fade">
-          <img src="slideshow_2.jpg" style="width:100%">
-        </div>
+                  <div class="mySlides fade">
+                    <img src="slideshow_2.jpg" style="width:100%">
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    <img src="slideshow_3.jpg" style="width:100%">
+                  </div>
         
-        <div class="mySlides fade">
-          <img src="slideshow_3.jpg" style="width:100%">
+              </div>
+            </div>
+
+        <div style="float: right; width: 45%; height: 435px; padding: 20px; background-color: #f4f4f4; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin-right: 10px;">
+
+            <h2 style="color: #1c2958; font-family: Arial, Helvetica, sans-serif;">Why Sun Life?</h2>
+
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Tailored Solutions:</strong> Our digital platform is meticulously crafted to meet your unique needs, providing personalized insights and recommendations.</p>
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Expert Guidance:</strong> Benefit from the expertise of our financial consultants who are dedicated to ensuring your financial success.</p>
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Empowering Education:</strong> We believe in empowering our clients through knowledge. Our resources are thoughtfully designed to make complex financial topics easily understandable.</p>
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Future-Ready Strategies:</strong> Stay ahead of the curve with our forward-thinking strategies that prepare you for the financial challenges of tomorrow.</p>
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">At Sun Life, we don't just offer financial services; we offer a partnership on your journey to financial well-being. Let's embark on this transformative experience together – because at Sun Life, making your life better is our ultimate goal. Join us today and start shaping a brighter financial future!</p>
+
+            <script>
+              let slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                slides[slideIndex-1].style.display = "block";  
+                setTimeout(showSlides, 6000); // Change image every 2 seconds
+              }
+              </script>
         </div>
-        
     </div>
-</div>
+    </div>
+         
 
-<div style="float: right; width: 45%; height: 435px; padding: 20px; background-color: #f4f4f4; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin-right: 10px;">
+    </div>
 
-    <h2 style="color: #1c2958; font-family: Arial, Helvetica, sans-serif;">Why Sun Life?</h2>
-
-    <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Tailored Solutions:</strong> Our digital platform is meticulously crafted to meet your unique needs, providing personalized insights and recommendations.</p>
-    <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Expert Guidance:</strong> Benefit from the expertise of our financial consultants who are dedicated to ensuring your financial success.</p>
-    <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Empowering Education:</strong> We believe in empowering our clients through knowledge. Our resources are thoughtfully designed to make complex financial topics easily understandable.</p>
-    <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Future-Ready Strategies:</strong> Stay ahead of the curve with our forward-thinking strategies that prepare you for the financial challenges of tomorrow.</p>
-    <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">At Sun Life, we don't just offer financial services; we offer a partnership on your journey to financial well-being. Let's embark on this transformative experience together – because at Sun Life, making your life better is our ultimate goal. Join us today and start shaping a brighter financial future!</p>
-
-</div>
-    <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          slides[slideIndex-1].style.display = "block";  
-          setTimeout(showSlides, 6000); // Change image every 2 seconds
-        }
-        </script>
-        
-    
 </body>
-
 <div class='footer'>
     
-    <p>Sun Life operates across diverse territories in Canada, with our headquarters in Waterloo situated on the traditional lands of the Anishnaabeg, Haudenosaunee Confederacy, and the Mississaugas of the Credit First Nations
-        </p>
+  <p>Sun Life operates across diverse territories in Canada, with our headquarters in Waterloo situated on the traditional lands of the Anishnaabeg, Haudenosaunee Confederacy, and the Mississaugas of the Credit First Nations
+      </p>
 <img src="sunlife.png" alt="Description of the image">
 
 </div>
+  
 
 </html>
