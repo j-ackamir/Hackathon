@@ -11,7 +11,7 @@ function calculator(){
 
     if (mortgage < 0){
         document.getElementById("result").innerText = 'Result unavailable, try different numbers';
-    }else if (mortgage=Infinity){
+    }else if (mortgage==Infinity){
         document.getElementById("result").innerText = 'Result unavailable, try different numbers';
     } else {
           document.getElementById("result").innerText = 'The monthly payment is $' + mortgage.toFixed(2);
