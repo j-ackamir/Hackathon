@@ -18,10 +18,11 @@
             </a>
  </div>
         <ul>
-            <li> <a class='active' href="."> Home Page </a> </li>
+            <li> <a href="."> Home Page </a> </li>
             <li> <a href=""> Education </a> </li>
             <li> <a href="casestudies.html"> Case Studies </a> </li>
             <li> <a href="FAQ.html"> FAQs </a> </li>
+            <li> <a class='active' href="mortgage.html"> Payments</a> </li>
             <li> <a href=""> Contact Us </a> </li>
         </ul>
         </div>
@@ -33,56 +34,34 @@
 
         <h3><b>What is the asking price?</b></h3>
         <div class ="slider">
-            <input type ="range" id="price" class="slider" min="100000" max="1000000" value="500000" oninput="price.innerText = this.value" >
-            <p id="price">500000</p>
+            <input type ="range" id="price" class="slider" min="100000" max="1000000" value="500000" oninput="rangeValue.innerText = this.value" >
+            <p id="rangeValue">500000</p>
         </div>
         
 
         <h3><b>What is the estimated annual interest?</b></h3>
         <div class ="slider">
-            <input type ="range" id="interest" class="slider" min="1" max="10" value="5" oninput="interest.innerText = this.value" >
-            <p id="interest">5</p>
+            <input type ="range" id="interest" class="slider" min="1" max="10" value="5" oninput="rangeValue1.innerText = this.value" >
+            <p id="rangeValue1">5</p>
         </div>
 
         <h3><b>What is the estimated down payment</b></h3>
         <div class ="slider">
-            <input type ="range" id="down" class="slider" min="20000" max="1000000" value="50000" oninput="down.innerText = this.value" >
-            <p id="down">50000</p>
+            <input type ="range" id="down" class="slider" min="20000" max="1000000" value="50000" oninput="rangeValue2.innerText = this.value" >
+            <p id="rangeValue2">50000</p>
         </div>
 
         <h3><b>What is your estimated mortgage term?</b></h3>
         <div class ="slider">
-            <input type ="range" id="term" class="slider" min="0" max="40" value="25" oninput="term.innerText = this.value" >
-            <p id="term">25</p>
+            <input type ="range" id="term" class="slider" min="0" max="40" value="25" oninput="rangeValue3.innerText = this.value" >
+            <p id="rangeValue3">25</p>
         </div>
         <br>
         <div>
-        <!-- <button type="submit" onclick="calculator()" >Calculate</button> -->
     </div>
   
     <h1 id="result" > </h1>
-        
-        <!-- <div >
-            <form method=POST >
-                    <h1><b>How Much is my Monthly Payment?</b></h1>
-                    <p> Fill out the short form to figure out your monthly payments!</p>
-                   
-                    <label for="price"><b>What is the house price ?</b></label><br>
-                    <input type="text" placeholder="price" id='price' name="price" required><br>
-        
-                    <label for="rate"><b>Enter the Annual Interest Rate in Percentage</b></label><br>
-                    <input type="text" placeholder="Annual Rate" id='rate' name="rate" required><br>
-        
-                    <label for="down"><b>How much money would you set aside as a down payment?</b></label><br>
-                    <input type="text" placeholder="Enter Amount" id='down' name="down" required><br>
-        
-                    <label for="years"><b>What would be your mortgage term?</b></label><br>
-                    <input type="text" placeholder="Enter Amount" id='years' name="years" required><br><br>
-        
-                    <button type="submit" class="mortgageButton" onclick="calculator()" >Calculate</button>
-             </form>
-             <h1 id="result" class="result"></h1>
-        </div> -->
+
 </p>
 
 
