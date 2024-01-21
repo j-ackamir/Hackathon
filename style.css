@@ -114,6 +114,7 @@ button{
   }
   .answer {
     margin-left: 10px;
+    display: none;
   }
 
   .casestudies{
