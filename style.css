@@ -98,7 +98,12 @@ button{
     height: 100vh;
 
   }
-
+  .inflation {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+    
+    
+  }
   .container {
     display: flex;
     align-items: center;
