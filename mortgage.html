@@ -29,9 +29,9 @@
 </nav>
 
 <body>
-<h1> Mortgage</h1>
+    <h1> Mortgage</h1>
     <p>
-
+        Inflation may elevate interest rates, affecting variable-rate mortgages directly. Rising home prices, often associated with inflation, can impact affordability for potential buyers. Real estate can serve as a hedge against inflation, with property values potentially appreciating. Economic instability from inflation may influence mortgage qualification as lenders adopt more cautious practices. Staying informed about market conditions is essential for homeowners and prospective buyers in navigating inflation-related challenges.
         <h3><b>What is the asking price?</b></h3>
         <div class ="slider">
             <input type ="range" id="price" class="slider" min="100000" max="1000000" value="500000" oninput="rangeValue.innerText = this.value" >
@@ -60,20 +60,46 @@
         <div>
     </div>
   
-    <h1 id="result" > </h1>
+    <h3 id="result" > </h3>
+
+    </p>
+<h1>Student Loan/Debt</h1>
+    <p>
+
+        <h3><b>What is the loan amount?</b></h3>
+        <div class ="slider">
+            <input type ="range" id="loan" class="slider" min="20000" max="150000" value="80000" oninput="rangeValue4.innerText = this.value" >
+            <p id="rangeValue4">80000</p>
+        </div>
+        
+
+        <h3><b>What is the estimated annual interest?</b></h3>
+        <div class ="slider">
+            <input type ="range" id="loanInterest" class="slider" min="1" max="10" value="5" oninput="rangeValue5.innerText = this.value" >
+            <p id="rangeValue5">5</p>
+        </div>
+
+        <h3><b>What is the loan term in months?</b></h3>
+        <div class ="slider">
+            <input type ="range" id="loanTerm" class="slider" min="1" max="1000" value="12" oninput="rangeValue6.innerText = this.value" >
+            <p id="rangeValue6">12</p>
+        </div>
+        
+  
+        <h3 id="loanResult" > </h3>
 
 </p>
 
 
 </body>
 
-<div class='footer'>
+<!-- <div class='footer'>
     
         
     <p>Sun Life operates across diverse territories in Canada, with our headquarters in Waterloo situated on the traditional lands of the Anishnaabeg, Haudenosaunee Confederacy, and the Mississaugas of the Credit First Nations
         </p>
 <img src="sunlife.png" alt="Description of the image">
 
-</div>
+</div> -->
 
 </html>
