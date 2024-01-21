@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="MortgageCalculator.js"></script>
+    <title>Case Studies</title>
+
+</head>
+
+<nav>
+    <div class='nav'>
+        <div>
+            <a href="homepage.html">
+                <img src="https://www.sunlife.ca/content/dam/sunlife/folder1/Sun_Life_weblogo_127x31.svg" />
+            </a>
+ </div>
+    <ul>
+        <li> <a href="homepage.html"> Home Page </a> </li>
+        <li> <a class= active href="Education.html"> Education </a> </li>
+        <li> <a href="casestudies.html"> Case Studies </a> </li>
+        <li> <a href="FAQ.html"> FAQs </a> </li>
+        <li> <a href="contactus.html"> Contact Us </a> </li>
+    </ul>
+        </div>
+</nav>
+
+<body>
+    <div class="page-container">
+    <div class="content-wrap">
+        
+        <p >Inflation may elevate interest rates, affecting variable-rate mortgages directly. Rising home prices, often associated with inflation, can impact affordability for potential buyers. Real estate can serve as a hedge against inflation, with property values potentially appreciating. Economic instability from inflation may influence mortgage qualification as lenders adopt more cautious practices. Staying informed about market conditions is essential for homeowners and prospective buyers in navigating inflation-related challenges.
+        <br>To have an idea on how your mortgage prices or student loan prices may vary, you may try interacting with both charts below!</p>
+            
+       <table>
+        <td>
+            <h1> Mortgage</h1>
+                    <h3><b>What is the asking price?</b></h3>
+                    <div class ="slider">
+                        <input type ="range" id="price" class="slider" min="100000" max="1000000" value="500000" oninput="rangeValue.innerText = this.value" >
+                        <p id="rangeValue">500000</p>
+                    </div>
+            
+    
+                    <h3><b>What is the estimated annual interest?</b></h3>
+                    <div class ="slider">
+                        <input type ="range" id="interest" class="slider" min="1" max="10" value="5" oninput="rangeValue1.innerText = this.value" >
+                        <p id="rangeValue1">5</p>
+                    </div>
+    
+                    <h3><b>What is the estimated down payment</b></h3>
+                    <div class ="slider">
+                        <input type ="range" id="down" class="slider" min="20000" max="1000000" value="50000" oninput="rangeValue2.innerText = this.value" >
+                        <p id="rangeValue2">50000</p>
+                    </div>
+    
+                    <h3><b>What is your estimated mortgage term?</b></h3>
+                    <div class ="slider">
+                        <input type ="range" id="term" class="slider" min="1" max="40" value="25" oninput="rangeValue3.innerText = this.value" >
+                        <p id="rangeValue3">25</p>
+                    </div>
+           
+      
+                    <h3 id="result" > </h3>
+         </td>
+                <td></td>
+               <td >
+                    <h1>Student Loan/Debt</h1>
+                
+                            <h3><b>What is the loan amount?</b></h3>
+                            <div class ="slider">
+                                <input type ="range" id="loan" class="slider" min="20000" max="150000" value="80000" oninput="rangeValue4.innerText = this.value" >
+                                <p id="rangeValue4">80000</p>
+                            </div>
+                            
+            
+                            <h3><b>What is the estimated annual interest?</b></h3>
+                            <div class ="slider">
+                                <input type ="range" id="loanInterest" class="slider" min="1" max="10" value="5" oninput="rangeValue5.innerText = this.value" >
+                                <p id="rangeValue5">5</p>
+                            </div>
+            
+                            <h3><b>What is the loan term in months?</b></h3>
+                            <div class ="slider">
+                                <input type ="range" id="loanTerm" class="slider" min="1" max="1000" value="12" oninput="rangeValue6.innerText = this.value" >
+                                <p id="rangeValue6">12</p>
+                            </div>
+
+                    <h3 id="loanResult" > </h3>
+                     
+                
+        </td>
+                        </table>
+                </div>
+    
+          
+    <div class='footer'>
+    
+        
+        <p>Sun Life operates across diverse territories in Canada, with our headquarters in Waterloo situated on the traditional lands of the Anishnaabeg, Haudenosaunee Confederacy, and the Mississaugas of the Credit First Nations
+            </p>
+        <img src="sunlife.png" alt="Description of the image">
+    
+    </div>
+    
+   
+    </div>
+
+    
+
+</body>
+
+
+</html>
+
